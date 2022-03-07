@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/AndroidLightCompressorBinding.csproj": {}
+  },
+  "projects": {
+    "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/AndroidLightCompressorBinding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/AndroidLightCompressorBinding.csproj",
+        "projectName": "AndroidLightCompressorBinding",
+        "projectPath": "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/AndroidLightCompressorBinding.csproj",
+        "packagesPath": "/Users/hrcoffee4/.nuget/packages/",
+        "outputPath": "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/hrcoffee4/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Karamunting.KotlinX.Coroutines.Android": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Karamunting.KotlinX.Coroutines.Core": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Xamarin.Kotlin.StdLib": {
+              "target": "Package",
+              "version": "[1.6.10, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

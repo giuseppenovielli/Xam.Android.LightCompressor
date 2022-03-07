@@ -1,0 +1,612 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v12.0": {
+      "Karamunting.KotlinX.Coroutines.Android/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Karamunting.KotlinX.Coroutines.Core": "1.4.2",
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        }
+      },
+      "Karamunting.KotlinX.Coroutines.Core/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        }
+      },
+      "Xamarin.Jetbrains.Annotations/23.0.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib/1.6.10": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Jetbrains.Annotations": "23.0.0.2",
+          "Xamarin.Kotlin.StdLib.Common": "1.6.10"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib.Common/1.6.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v12.0/win": {
+      "Karamunting.KotlinX.Coroutines.Android/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Karamunting.KotlinX.Coroutines.Core": "1.4.2",
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        }
+      },
+      "Karamunting.KotlinX.Coroutines.Core/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        }
+      },
+      "Xamarin.Jetbrains.Annotations/23.0.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib/1.6.10": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Jetbrains.Annotations": "23.0.0.2",
+          "Xamarin.Kotlin.StdLib.Common": "1.6.10"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib.Common/1.6.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v12.0/win-x64": {
+      "Karamunting.KotlinX.Coroutines.Android/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Karamunting.KotlinX.Coroutines.Core": "1.4.2",
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        }
+      },
+      "Karamunting.KotlinX.Coroutines.Core/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        }
+      },
+      "Xamarin.Jetbrains.Annotations/23.0.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib/1.6.10": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Jetbrains.Annotations": "23.0.0.2",
+          "Xamarin.Kotlin.StdLib.Common": "1.6.10"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib.Common/1.6.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v12.0/win-x86": {
+      "Karamunting.KotlinX.Coroutines.Android/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Karamunting.KotlinX.Coroutines.Core": "1.4.2",
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Android.dll": {}
+        }
+      },
+      "Karamunting.KotlinX.Coroutines.Core/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Kotlin.StdLib": "1.4.0",
+          "Xamarin.Kotlin.StdLib.Common": "1.4.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/KotlinX.Coroutines.Core.dll": {}
+        }
+      },
+      "Xamarin.Jetbrains.Annotations/23.0.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib/1.6.10": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Jetbrains.Annotations": "23.0.0.2",
+          "Xamarin.Kotlin.StdLib.Common": "1.6.10"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets": {}
+        }
+      },
+      "Xamarin.Kotlin.StdLib.Common/1.6.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Karamunting.KotlinX.Coroutines.Android/1.4.2": {
+      "sha512": "lJtM5zzWK2nqh3BxmghwphhqHNrK7hfiqgEgBgOUg4lD6nrfEtgadAIhWeim4+Cxn+32vmbjr9lpliGsbGSsZA==",
+      "type": "package",
+      "path": "karamunting.kotlinx.coroutines.android/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "karamunting.kotlinx.coroutines.android.1.4.2.nupkg.sha512",
+        "karamunting.kotlinx.coroutines.android.nuspec",
+        "lib/monoandroid90/KotlinX.Coroutines.Android.dll",
+        "lib/monoandroid90/KotlinX.Coroutines.Android.xml"
+      ]
+    },
+    "Karamunting.KotlinX.Coroutines.Core/1.4.2": {
+      "sha512": "UeE2oLRtacQ32oI+TRcVAauVXU66xUizJFlyvERl850ASKUmmmUQ6Q/WECDwsFXipKNz2VFo6M4Y1fJR1tPWVg==",
+      "type": "package",
+      "path": "karamunting.kotlinx.coroutines.core/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "karamunting.kotlinx.coroutines.core.1.4.2.nupkg.sha512",
+        "karamunting.kotlinx.coroutines.core.nuspec",
+        "lib/monoandroid90/KotlinX.Coroutines.Core.dll"
+      ]
+    },
+    "Xamarin.Jetbrains.Annotations/23.0.0.2": {
+      "sha512": "CILFllvTZSpTDb0WJU+8vMYJL6MnclljlP6vrboDCXzxu6uRuLHQWtT5zh2W/tk5Vfc5Us04ckyDC/eBOJBGvg==",
+      "type": "package",
+      "path": "xamarin.jetbrains.annotations/23.0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "build/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets",
+        "build/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets",
+        "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets",
+        "jar/org.jetbrains.annotations-23.0.0.jar",
+        "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.dll",
+        "lib/monoandroid12.0/Xamarin.Jetbrains.Annotations.xml",
+        "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.dll",
+        "lib/net6.0-android31.0/Xamarin.Jetbrains.Annotations.xml",
+        "xamarin.jetbrains.annotations.23.0.0.2.nupkg.sha512",
+        "xamarin.jetbrains.annotations.nuspec"
+      ]
+    },
+    "Xamarin.Kotlin.StdLib/1.6.10": {
+      "sha512": "rKgXErR/XUcb7MJdaLGxOU851iLChUk2QGClROnnYY24ufKJXZ6DqOASYshdWi2sDNRqr+Mxe3mcAifxIfg5sw==",
+      "type": "package",
+      "path": "xamarin.kotlin.stdlib/1.6.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "build/monoandroid12.0/Xamarin.Kotlin.StdLib.targets",
+        "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
+        "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
+        "jar/org.jetbrains.kotlin.kotlin-stdlib-1.6.10.jar",
+        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll",
+        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.xml",
+        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll",
+        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.xml",
+        "xamarin.kotlin.stdlib.1.6.10.nupkg.sha512",
+        "xamarin.kotlin.stdlib.nuspec"
+      ]
+    },
+    "Xamarin.Kotlin.StdLib.Common/1.6.10": {
+      "sha512": "MiRwcdDSvGxQR7rhAQdONGoHD66M5RSDIwhSeQiaJ5DEcNQczexUhu7GUA9mktoBi50Bpfwo7eJw9NNvm2Bd8g==",
+      "type": "package",
+      "path": "xamarin.kotlin.stdlib.common/1.6.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "build/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets",
+        "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
+        "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
+        "jar/org.jetbrains.kotlin.kotlin-stdlib-common-1.6.10.jar",
+        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll",
+        "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.xml",
+        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll",
+        "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.xml",
+        "xamarin.kotlin.stdlib.common.1.6.10.nupkg.sha512",
+        "xamarin.kotlin.stdlib.common.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v12.0": [
+      "Karamunting.KotlinX.Coroutines.Android >= 1.4.2",
+      "Karamunting.KotlinX.Coroutines.Core >= 1.4.2",
+      "Xamarin.Kotlin.StdLib >= 1.6.10"
+    ]
+  },
+  "packageFolders": {
+    "/Users/hrcoffee4/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/AndroidLightCompressorBinding.csproj",
+      "projectName": "AndroidLightCompressorBinding",
+      "projectPath": "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/AndroidLightCompressorBinding.csproj",
+      "packagesPath": "/Users/hrcoffee4/.nuget/packages/",
+      "outputPath": "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/hrcoffee4/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid12.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid12.0": {
+        "dependencies": {
+          "Karamunting.KotlinX.Coroutines.Android": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          },
+          "Karamunting.KotlinX.Coroutines.Core": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          },
+          "Xamarin.Kotlin.StdLib": {
+            "target": "Package",
+            "version": "[1.6.10, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
