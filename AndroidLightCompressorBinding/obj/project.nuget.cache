@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zTKsTIyw4mz13KqGgWa6LCpJT3bKempAfGv3mbLDIMdJS/W+5ZzKr0ZMHLKF363MQUb2Aqgz9+8i+fhSV7/ovg==",
+  "success": true,
+  "projectFilePath": "/Users/hrcoffee4/Projects/WePilot/AndroidLightCompressorBinding/AndroidLightCompressorBinding.csproj",
+  "expectedPackageFiles": [
+    "/Users/hrcoffee4/.nuget/packages/karamunting.kotlinx.coroutines.android/1.4.2/karamunting.kotlinx.coroutines.android.1.4.2.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/karamunting.kotlinx.coroutines.core/1.4.2/karamunting.kotlinx.coroutines.core.1.4.2.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/xamarin.jetbrains.annotations/23.0.0.2/xamarin.jetbrains.annotations.23.0.0.2.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/xamarin.kotlin.stdlib/1.6.10/xamarin.kotlin.stdlib.1.6.10.nupkg.sha512",
+    "/Users/hrcoffee4/.nuget/packages/xamarin.kotlin.stdlib.common/1.6.10/xamarin.kotlin.stdlib.common.1.6.10.nupkg.sha512"
+  ],
+  "logs": []
+}
