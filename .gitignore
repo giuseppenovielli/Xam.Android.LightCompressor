@@ -1,5 +1,4 @@
-AndroidLightCompressorBinding/.vs/
-AndroidLightCompressorBinding/AndroidLightCompressorBinding/.vs/
 .DS_Store/
-AndroidLightCompressorBinding/AndroidLightCompressorBinding/bin/
-AndroidLightCompressorBinding/AndroidLightCompressorBinding/obj/
+AndroidLightCompressorBinding/bin/
+AndroidLightCompressorBinding/obj/
+AndroidLightCompressorBinding/.DS_Store/
