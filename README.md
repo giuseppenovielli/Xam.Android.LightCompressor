@@ -2,7 +2,7 @@
 
 Xamarin.Android Binding library https://github.com/AbedElazizShe/LightCompressor by Giuseppe Novielli
 
-CompatCalendarView Library Version Binded Version = v1.1.1
+LightCompressor v1.1.1
 
 Documentation Available https://github.com/AbedElazizShe/LightCompressor
 
