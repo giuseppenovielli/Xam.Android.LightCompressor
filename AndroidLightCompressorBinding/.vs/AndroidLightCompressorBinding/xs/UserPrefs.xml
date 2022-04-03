@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{25668AC0-01D4-4BBF-BF5D-9534F66DF72D}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="AndroidLightCompressorBinding" expanded="True">
+            <Node name="AndroidLightCompressorBinding" expanded="True" selected="True">
+              <Node name="bin" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.AndroidLightCompressorBinding PreferredExecutionTarget="Android.Pixel_3a_API_31_arm64-v8a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

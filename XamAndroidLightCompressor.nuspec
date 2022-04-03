@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>Xam.Android.LightCompressor</id>
+    <version>1.1.1</version>
+    <title>Xam.Android.LightCompressor</title>
+    <authors>Giuseppe Novielli, AbedElazizShe</authors>
+    <owners>Giuseppe Novielli</owners>
+   <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/giuseppenovielli/Xam.Android.LightCompressor</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.Android Binding of AbedElazizShe.LightCompressor library https://github.com/AbedElazizShe/LightCompressor by Giuseppe Novielli</description>
+    <releaseNotes>Sync Version to original library 1.1.1</releaseNotes>
+    <copyright>Copyright 2022 Giuseppe Novielli</copyright>
+    <tags>xamarin, xamarin.android, AbedElazizShe.LightCompressor, LightCompressor</tags>
+    <summary>Xamarin.Android Binding of AbedElazizShe.LightCompressor library https://github.com/AbedElazizShe/LightCompressor by Giuseppe Novielli</summary>
+    <dependencies>
+      <group targetFramework="monoandroid12.0">
+          <dependency id="Xamarin.Kotlin.StdLib" version="1.6.10" />
+      </group>
+      <group targetFramework="monoandroid12.0">
+          <dependency id="Karamunting.KotlinX.Coroutines.Android" version="1.4.2" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LICENSE" />
+    <file src="AndroidLightCompressorBinding/bin/Release/AndroidLightCompressorBinding.dll" target="lib/monoandroid12.0/AndroidLightCompressorBinding.dll" />
+	</files>
+</package>
