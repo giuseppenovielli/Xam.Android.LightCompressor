@@ -9,7 +9,6 @@ Documentation Available https://github.com/AbedElazizShe/LightCompressor
 # How To use
 1.  Add nuget package https://www.nuget.org/packages/Xam.Android.LightCompressor/1.1.1
 2.  Copy and paste follow code
-3.  Set references to your Xamarin.Android project's
 
 ```
 var vcl = new VideoCompressorListener();
